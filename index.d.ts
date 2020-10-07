@@ -1,15 +1,16 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Add the numbers in an array cumulatively.
+
+@param array The array to add the numbers of.
+
 @example
 ```
-const theModule = require("the-module")
+const cumulativeSum = require("cumulative-sum")
 
-theModule("unicorns")
-//=> "unicorns & rainbows"
+cumulativeSum([1, 2, 3])
+//=> [1, 3, 6]
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function cumulativeSum(array: number[]): number[]
 
-export = theModule
+export = cumulativeSum

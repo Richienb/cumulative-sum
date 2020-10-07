@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "cumulative-sum",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Add the numbers in an array cumulatively.",
+	"repository": "https://github.com/Richienb/cumulative-sum.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,15 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"math",
+		"cumulative",
+		"sum",
+		"add",
+		"total",
+		"addition",
+		"add"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.13.0",

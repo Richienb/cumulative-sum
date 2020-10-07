@@ -1,41 +1,30 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# cumulative-sum [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/cumulative-sum/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/cumulative-sum)
 
-My awesome module.
+Add the numbers in an array cumulatively.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/cumulative-sum.png)](https://npmjs.com/package/cumulative-sum)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install cumulative-sum
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module")
+const cumulativeSum = require("cumulative-sum")
 
-theModule("unicorns")
-//=> "unicorns & rainbows"
+cumulativeSum([1, 2, 3])
+//=> [1, 3, 6]
 ```
 
 ## API
 
-### theModule(input, options?)
+### cumulativeSum(array)
 
-#### input
+#### array
 
-Type: `string`
+Type: `array`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The array to add the numbers of.

@@ -1,9 +1,11 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") {
-		throw new TypeError(`Expected a string, got ${typeof input}`)
+module.exports = array => {
+	if (!Array.isArray(array)) {
+		throw new TypeError(`Expected an array of numbers, got ${typeof array}`)
 	}
 
-	return `${input} & ${postfix}`
+	let sum = 0
+
+	return array.map(value => sum += value) // eslint-disable-line no-return-assign
 }
