@@ -1,6 +1,6 @@
 {
 	"name": "cumulative-sum",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Add the numbers in an array cumulatively.",
 	"repository": "https://github.com/Richienb/cumulative-sum.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
